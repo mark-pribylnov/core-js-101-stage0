@@ -1,16 +1,17 @@
-function extractNameFromTemplate(value, def) {
-  const converted = Number(value);
-  // console.log(converted, typeof converted);
+// function extractNameFromTemplate(len) {
+//   const arr = Array.from({ length: 5 })
+//     .fill(0)
+//     .map((value) => {});
+//   // for (let i = 1; arr.length < len; i += 1) {
+//   //   if (i % 2 !== 0) {
+//   //     arr.push(i);
+//   //   }
+//   // }
+//   return arr;
+// }
 
-  // if (typeof value === 'string') return def;
-  if (typeof converted === 'number' && !Number.isNaN(converted)) {
-    return converted;
-  }
-  return def;
-}
-
-// console.log(extractNameFromTemplate(null, 0));
-// console.log(extractNameFromTemplate('test', 0));
-// console.log(extractNameFromTemplate('1', 0));
-console.log(extractNameFromTemplate(42, 0));
-// console.log(extractNameFromTemplate(new Number(42), 0));
+// // console.log(extractNameFromTemplate(null, 0));
+// // console.log(extractNameFromTemplate('test', 0));
+// // console.log(extractNameFromTemplate('1', 0));
+// console.log(extractNameFromTemplate(2));
+// // console.log(extractNameFromTemplate(new Number(42), 0));
